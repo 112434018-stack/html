@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <!-- 1. Text Field -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- 2. Password Field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- 3. Email Field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- 4. Text Area -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <!-- 5. Combo Box -->
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>B.Tech</option>
+        </select><br><br>
+
+        <!-- 6. List Box -->
+        <label for="skills">Skills:</label><br>
+        <select id="skills" name="skills" multiple size="4">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </select><br><br>
+
+        <!-- 7. Radio Button -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- 8. Checkbox -->
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+
+        <!-- 9. Date Field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!-- 10. Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
